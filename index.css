@@ -257,7 +257,14 @@
 		width: fit-content;
 		height: fit-content;
 	}
-
+	.PB a{
+		color: indianred;
+	
+	}
+	.PB a:Hover {
+		color: firebrick;
+		text-decoration: underline;
+	}
 	.Midtext {
 		padding-top: 1em;
 		font-weight: bold;
@@ -568,7 +575,14 @@
 		width: fit-content;
 		height: fit-content;
 	}
-
+	.PB a{
+		color: indianred;
+	
+	}
+	.PB a:Hover {
+		color: firebrick;
+		text-decoration: underline;
+	}
 	.Midtext {
 		padding-top: 1em;
 		font-weight: bold;
