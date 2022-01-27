@@ -151,9 +151,12 @@
 	.summary {
 		font-family: futura-pt;
 		font-size: 1.1em;
-		padding: 1.5em 0em 0em 0.75em;
+		margin: 1.5em 0em 0em 0.75em;
+		padding: 2em;
 		width: fit-content;
 		height: fit-content;
+		box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+		
 	}
 	.icons{
 		padding-top: .75em;
@@ -210,9 +213,11 @@
 
 	.sectionheader {
 		display: block;
-		padding-top: 3em;
+		margin-top: 3em;
+		padding: 2em;
 		width: fit-content;
 		height: fit-content;
+		box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
 	}
 	.sectionheader a {
 		text-decoration: none;
@@ -380,7 +385,7 @@
 		flex-direction: column;
 		align-items: center;
 		position: relative;
-		padding: 15px;
+		padding: 1em;
 		height: 100%;
 	}
 	
@@ -391,7 +396,7 @@
 		position: relative;
 		width: fit-content;
 		font-size: 1.3em;
-		padding-top: 16px;
+		padding-top: 0.8em;
 		
 	}
 	
@@ -421,21 +426,23 @@
 	}
 
 	.main {
-		margin-top: 20em;
-		max-width: 50em;
+		margin-top: 18em;
+		width: auto;
+/*		margin-right: 1.5em;*/
 		font-weight: 400;
+		margin-right: 3em;
 	}
 
 	.headerinfo {
 		font-family: futura-pt;
-		padding-left: 0.75em;
+		padding-left: 1.25em;
 		text-transform: uppercase;
 		font-weight: 500;
 	}
 
 	.name {
-		transform: scaleY(1.25);
-		font-size: 2.35em;
+		transform: scaleY(1.2);
+		font-size: 2.5em;
 	}
 
 	.first_name {
@@ -454,7 +461,7 @@
 		padding-top: 1.5em;
 		display: inline-block;
 		font-weight: 500;
-		font-size: 1.35em;
+		font-size: 1.4em;
 		width: fit-content;
 
 	}
@@ -471,10 +478,12 @@
 
 	.summary {
 		font-family: futura-pt;
-		font-size: 1.2em;
-		padding: 2.5em 0em 0em 0.75em;
+		font-size: 1.25em;
+		margin: 2.5em 0em 0em 0.75em;
+		padding: 2em;
 		width: fit-content;
 		height: fit-content;
+		box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
 	}
 	.icons{
 		padding-top: 1em;
@@ -505,10 +514,11 @@
 		margin-top: 15em;
 		margin-bottom: 5em;
 		filter: opacity(40%);
+/*		width: 100%;*/
 	}
 
 	.sectionTitle {
-		font-size: 2.3em;
+		font-size: 2.5em;
 		font-family: futura-pt;
 		font-weight: 600;
 		text-transform: uppercase;
@@ -517,6 +527,7 @@
 		text-decoration-color: indianred;
 		width: fit-content;
 		height: fit-content;
+		margin-left: 0.2em;
 	}
 	.education {
 		padding-left: 0.75em;
@@ -527,9 +538,10 @@
 
 	.sectionheader {
 		display: block;
-		padding-top: 5em;
-		width: fit-content;
+		padding: 2em;
+		margin-top: 5em;
 		height: fit-content;
+		box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
 	}
 	.sectionheader a {
 		text-decoration: none;
@@ -538,7 +550,7 @@
 	}
 
 	.eduheader {
-		font-size: 1.75em;
+		font-size: 1.9em;
 		font-weight: bold;
 		display: inline-block;
 		width: fit-content;
@@ -558,7 +570,7 @@
 		color: indianred;
 		width: fit-content;
 		height: fit-content;
-		font-size: 1.2em;
+		font-size: 1.28em;
 	}
 
 	.moreinfo {
@@ -566,7 +578,7 @@
 		padding-top: 0.25em;
 		width: fit-content;
 		height: fit-content;
-		font-size: 1.1em;
+		font-size: 1.15em;
 	}
 
 	.experience {
