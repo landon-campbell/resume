@@ -99,8 +99,9 @@
 
 	.main {
 		margin-top: 10em;
-		max-width: 50em;
+		width: auto;
 		font-weight: 400;
+		margin-right: 1em;
 
 	}
 
@@ -114,7 +115,7 @@
 	}
 
 	.name {
-		transform: scaleY(1.2);
+		transform: scaleY(1.1);
 		font-size: 1.8em;
 	}
 
@@ -150,7 +151,7 @@
 
 	.summary {
 		font-family: futura-pt;
-		font-size: 1.1em;
+		font-size: 1.15em;
 		margin: 1.5em 0em 0em 0.75em;
 		padding: 2em;
 		width: fit-content;
@@ -198,11 +199,12 @@
 		font-family: futura-pt;
 		font-weight: 600;
 		text-transform: uppercase;
-		transform: scaleY(1.2);
+		transform: scaleY(1.1);
 		text-decoration: underline;
 		text-decoration-color: indianred;
 		width: fit-content;
 		height: fit-content;
+		margin-left: 0.2em;
 	}
 	.education {
 		padding-left: 0.75em;
@@ -215,7 +217,7 @@
 		display: block;
 		margin-top: 3em;
 		padding: 2em;
-		width: fit-content;
+/*		width: fit-content;*/
 		height: fit-content;
 		box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
 	}
@@ -226,7 +228,7 @@
 	}
 
 	.eduheader {
-		font-size: 1.65em;
+		font-size: 1.8em;
 		font-weight: bold;
 		display: inline-block;
 		width: fit-content;
@@ -245,7 +247,7 @@
 		color: indianred;
 		width: fit-content;
 		height: fit-content;
-		font-size: 1.2em;
+		font-size: 1.25em;
 	}
 
 	.moreinfo {
@@ -253,7 +255,7 @@
 		padding-top: 0.25em;
 		width: fit-content;
 		height: fit-content;
-		font-size: 1.1em;
+		font-size: 1.15em;
 	}
 
 	.experience {
