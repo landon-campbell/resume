@@ -1,7 +1,339 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media only screen and (max-width: 1050px){
+/* @media only screen and (min-width: 1051px) { */
+
+html {
+	scroll-behavior: smooth;
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+}
+
+body {
+	margin-left: 22em;
+}
+
+.navbar-left {
+	background-color: indianred;
+	top: 0;
+	height: 100%;
+	position: fixed;
+	width: fit-content;
+	left: 0;
+	max-width: 18em;
+	font-family: futura-pt;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 15px;
+}
+
+.dropbutton {
+	display: none;
+}
+
+.dropitems {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	padding: 1em;
+	height: 100%;
+}
+
+.dropitems a {
+	color: lightgrey;
+	text-decoration: none;
+	display: block;
+	position: relative;
+	width: fit-content;
+	font-size: 1.3em;
+	padding-top: 0.8em;
+	
+}
+
+.dropitems a:hover {
+	color: white;
+}
+	
+#landon_profile {
+	border-radius: 50%;
+	border: 8px solid #da7474;
+}
+
+.navname {
+	display: none;
+/*
+	color: white;
+	font-size: 1.3em;
+	font-family: futura-pt;
+	font-weight: 400;
+*/
+/*
+	align-items: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+*/
+}
+
+.main {
+	margin-top: 18em;
+	width: auto;
+/*		margin-right: 1.5em;*/
+	font-weight: 400;
+	margin-right: 3em;
+}
+
+.headerinfo {
+	font-family: futura-pt;
+	padding-left: 1.25em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.name {
+	transform: scaleY(1.2);
+	font-size: 2.5em;
+	font-weight: bold;
+	
+}
+
+.first_name {
+	display: inline;
+	padding-right: .05em;
+	font-size: 3.8rem;
+
+}
+.last_name {
+	color: indianred;
+	display: inline;
+	padding-left: .05em;
+	font-size: 3.8rem;
+}
+
+.info {
+	transform: scaleY(1.1);
+	padding-top: 1.5em;
+	display: inline-block;
+	font-weight: 500;
+	font-size: 1.4em;
+	width: fit-content;
+
+}
+.email {
+	text-decoration: none;
+	color: indianred;
+	display: block;
+	padding-top: 0.15em;
+}
+.email:hover {
+	text-decoration: underline;
+	color: firebrick;
+}
+
+.summary {
+	font-family: futura-pt;
+	font-size: 1.25em;
+	margin: 2.5em 0em 0em 0.75em;
+	padding: 2em;
+	width: fit-content;
+	height: fit-content;
+	box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+}
+.icons{
+	padding-top: 1em;
+	width: fit-content;
+	height: fit-content;
+}
+
+.icons a{
+	padding-left: .75em;
+	padding-right: 0.5em;
+	color: black;
+}
+
+.in:hover {
+	color: indianred;
+}
+.insta:hover {
+	color: indianred;
+}
+.web:hover {
+	color: indianred;
+}
+.fb:hover {
+	color: indianred;
+}
+
+.m-0 {
+	margin-top: 15em;
+	margin-bottom: 5em;
+	filter: opacity(40%);
+/*		width: 100%;*/
+}
+
+.sectionTitle {
+	font-size: 2.5em;
+	font-family: futura-pt;
+	font-weight: 600;
+	text-transform: uppercase;
+	transform: scaleY(1.2);
+	text-decoration: underline;
+	text-decoration-color: indianred;
+	width: fit-content;
+	height: fit-content;
+	margin-left: 0.2em;
+}
+.education {
+	padding-left: 0.75em;
+	font-family: futura-pt;
+	width: fit-content;
+	height: fit-content;
+}
+
+.sectionheader {
+	display: block;
+	padding: 2em;
+	margin-top: 5em;
+	height: fit-content;
+	box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+}
+.sectionheader a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.eduheader {
+	font-size: 1.9rem;
+	font-weight: bold;
+	display: inline-block;
+	width: fit-content;
+	height: fit-content;
+}
+
+.eduheaderinfo {
+	display: block;
+	font-size: 1.35rem;
+	width: fit-content;
+	height: fit-content;
+}
+
+
+.date {
+	display: block;
+	color: indianred;
+	width: fit-content;
+	height: fit-content;
+	font-size: 1.28rem;
+}
+
+.moreinfo {
+	display: block;
+	padding-top: 0.25em;
+	width: fit-content;
+	height: fit-content;
+	font-size: 1.15em;
+}
+
+.experience {
+	padding-left: 0.75em;
+	font-family: futura-pt;
+	width: fit-content;
+	height: fit-content;
+}
+.PB a{
+	color: indianred;
+
+}
+.PB a:Hover {
+	color: firebrick;
+	text-decoration: underline;
+}
+.Midtext {
+	padding-top: 1em;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 1.35em;
+	width: fit-content;
+	height: fit-content;
+}
+
+.HobbiesExtra {
+	padding-left: 0.75em;
+	font-family: futura-pt;
+	width: fit-content;
+	height: fit-content;
+}
+
+.csskills {
+	padding-left: 0.75em;
+	font-family: futura-pt;
+	width: fit-content;
+	height: fit-content;
+}
+
+.icowords {
+	display: inline-block;
+	width: fit-content;
+	height: fit-content;
+	margin-left: 0.5rem;
+}
+li {
+	display: inline-block;
+	padding-top: 1em;
+	padding-left: 1.5em;
+	width: fit-content;
+	height: fit-content;
+}
+
+.projects {
+	padding-left: 0.75em;
+	font-family: futura-pt;
+	width: fit-content;
+	height: fit-content;
+}
+a.rslink {
+	color: cornflowerblue;
+	text-decoration: underline;
+}
+
+.enclosure li {
+	display: block;
+	padding: 0;
+}
+.courses {
+	padding-left: 0.75em;
+	font-family: futura-pt;
+	width: fit-content;
+	height: fit-content;
+}
+
+.communityService {
+	padding-left: 0.75em;
+	font-family: futura-pt;
+	width: fit-content;
+	height: fit-content;
+}
+
+.awards {
+	padding-left: 0.75em;
+	font-family: futura-pt;
+	width: fit-content;
+	height: fit-content;
+}
+
+/*}
+
+
+
+
+/*
+/* @media only screen and (max-width: 1050px){
 	
 	html {
 		scroll-behavior: smooth;
@@ -217,7 +549,7 @@
 		display: block;
 		margin-top: 3em;
 		padding: 2em;
-/*		width: fit-content;*/
+		width: fit-content;
 		height: fit-content;
 		box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
 	}
@@ -344,332 +676,4 @@
 		width: fit-content;
 		height: fit-content;
 	}
-}
-
-/*BIG SCREEN ONLY = BELOW CSS */
-
-
-@media only screen and (min-width: 1051px) {
-
-	html {
-		scroll-behavior: smooth;
-		font-family: futura-pt, sans-serif;
-		font-style: normal;
-	}
-
-	body {
-		margin-left: 22em;
-	}
-	
-	.navbar {
-		background-color: indianred;
-		top: 0;
-		height: 100%;
-		position: fixed;
-		width: fit-content;
-		left: 0;
-		max-width: 18em;
-		font-family: futura-pt;
-		
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		text-align: center;
-		align-items: center;
-		padding: 15px;
-	}
-	
-	.dropbutton {
-		display: none;
-	}
-	
-	.dropitems {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		position: relative;
-		padding: 1em;
-		height: 100%;
-	}
-	
-	.dropitems a {
-		color: lightgrey;
-		text-decoration: none;
-		display: block;
-		position: relative;
-		width: fit-content;
-		font-size: 1.3em;
-		padding-top: 0.8em;
-		
-	}
-	
-	.dropitems a:hover {
-		color: white;
-	}
-		
-	#landon_profile {
-		border-radius: 50%;
-		border: 8px solid #da7474;
-	}
-	
-	.navname {
-		display: none;
-/*
-		color: white;
-		font-size: 1.3em;
-		font-family: futura-pt;
-		font-weight: 400;
-*/
-/*
-		align-items: center;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-*/
-	}
-
-	.main {
-		margin-top: 18em;
-		width: auto;
-/*		margin-right: 1.5em;*/
-		font-weight: 400;
-		margin-right: 3em;
-	}
-
-	.headerinfo {
-		font-family: futura-pt;
-		padding-left: 1.25em;
-		text-transform: uppercase;
-		font-weight: 500;
-	}
-
-	.name {
-		transform: scaleY(1.2);
-		font-size: 2.5em;
-	}
-
-	.first_name {
-		display: inline;
-		padding-right: .05em;
-
-	}
-	.last_name {
-		color: indianred;
-		display: inline;
-		padding-left: .05em;
-	}
-
-	.info {
-		transform: scaleY(1.1);
-		padding-top: 1.5em;
-		display: inline-block;
-		font-weight: 500;
-		font-size: 1.4em;
-		width: fit-content;
-
-	}
-	.email {
-		text-decoration: none;
-		color: indianred;
-		display: block;
-		padding-top: 0.15em;
-	}
-	.email:hover {
-		text-decoration: underline;
-		color: firebrick;
-	}
-
-	.summary {
-		font-family: futura-pt;
-		font-size: 1.25em;
-		margin: 2.5em 0em 0em 0.75em;
-		padding: 2em;
-		width: fit-content;
-		height: fit-content;
-		box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
-	}
-	.icons{
-		padding-top: 1em;
-		width: fit-content;
-		height: fit-content;
-	}
-
-	.icons a{
-		padding-left: .75em;
-		padding-right: 0.5em;
-		color: black;
-	}
-
-	.in:hover {
-		color: indianred;
-	}
-	.insta:hover {
-		color: indianred;
-	}
-	.web:hover {
-		color: indianred;
-	}
-	.fb:hover {
-		color: indianred;
-	}
-
-	.m-0 {
-		margin-top: 15em;
-		margin-bottom: 5em;
-		filter: opacity(40%);
-/*		width: 100%;*/
-	}
-
-	.sectionTitle {
-		font-size: 2.5em;
-		font-family: futura-pt;
-		font-weight: 600;
-		text-transform: uppercase;
-		transform: scaleY(1.2);
-		text-decoration: underline;
-		text-decoration-color: indianred;
-		width: fit-content;
-		height: fit-content;
-		margin-left: 0.2em;
-	}
-	.education {
-		padding-left: 0.75em;
-		font-family: futura-pt;
-		width: fit-content;
-		height: fit-content;
-	}
-
-	.sectionheader {
-		display: block;
-		padding: 2em;
-		margin-top: 5em;
-		height: fit-content;
-		box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
-	}
-	.sectionheader a {
-		text-decoration: none;
-		color: black;
-
-	}
-
-	.eduheader {
-		font-size: 1.9rem;
-		font-weight: bold;
-		display: inline-block;
-		width: fit-content;
-		height: fit-content;
-	}
-
-	.eduheaderinfo {
-		display: block;
-		font-size: 1.35rem;
-		width: fit-content;
-		height: fit-content;
-	}
-	
-
-	.date {
-		display: block;
-		color: indianred;
-		width: fit-content;
-		height: fit-content;
-		font-size: 1.28rem;
-	}
-
-	.moreinfo {
-		display: block;
-		padding-top: 0.25em;
-		width: fit-content;
-		height: fit-content;
-		font-size: 1.15em;
-	}
-
-	.experience {
-		padding-left: 0.75em;
-		font-family: futura-pt;
-		width: fit-content;
-		height: fit-content;
-	}
-	.PB a{
-		color: indianred;
-	
-	}
-	.PB a:Hover {
-		color: firebrick;
-		text-decoration: underline;
-	}
-	.Midtext {
-		padding-top: 1em;
-		font-weight: bold;
-		display: inline-block;
-		font-size: 1.35em;
-		width: fit-content;
-		height: fit-content;
-	}
-
-	.HobbiesExtra {
-		padding-left: 0.75em;
-		font-family: futura-pt;
-		width: fit-content;
-		height: fit-content;
-	}
-
-	.csskills {
-		padding-left: 0.75em;
-		font-family: futura-pt;
-		width: fit-content;
-		height: fit-content;
-	}
-
-	.icowords {
-		display: inline-block;
-		width: fit-content;
-		height: fit-content;
-		margin-left: 0.5rem;
-	}
-	li {
-		display: inline-block;
-		padding-top: 1em;
-		padding-left: 1.5em;
-		width: fit-content;
-		height: fit-content;
-	}
-
-	.projects {
-		padding-left: 0.75em;
-		font-family: futura-pt;
-		width: fit-content;
-		height: fit-content;
-	}
-	a.rslink {
-		color: cornflowerblue;
-		text-decoration: underline;
-	}
-
-	.enclosure li {
-		display: block;
-		padding: 0;
-	}
-	.courses {
-		padding-left: 0.75em;
-		font-family: futura-pt;
-		width: fit-content;
-		height: fit-content;
-	}
-
-	.communityService {
-		padding-left: 0.75em;
-		font-family: futura-pt;
-		width: fit-content;
-		height: fit-content;
-	}
-
-	.awards {
-		padding-left: 0.75em;
-		font-family: futura-pt;
-		width: fit-content;
-		height: fit-content;
-	}
-}
-
-
+} */
