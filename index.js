@@ -1,12 +1,12 @@
-// $('.navbar').hide();
-$('.navbar-left').show();
+$('.topnav').hide();
+$('.navbar-desktop').show();
 
 // Mobile View
-if ($(window).width() < 5 || /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+if ($(window).width() < 500 || /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
 
     $('.main').css('margin-right', '0');
     $('.main').css('margin-left', '0');
-    $('.main').css('margin-top', '5rem');
+    $('.main').css('margin-top', '9rem');
     $('.headerinfo').css('padding-left', '0');
     $('.summary').css('margin-left', '0');
     $('.summary').css('font-size', '2rem');
@@ -31,15 +31,25 @@ if ($(window).width() < 5 || /Android|webOS|iPhone|iPod|BlackBerry/i.test(naviga
     $('.communityService').css('padding-left', '0');
     $('.awards').css('padding-left', '0');
     $('.sectionTitle').css('margin', 'auto auto auto auto');
+    $('.navbar-desktop').hide();
+
 
     // Navbar Mobile View
-    // $('.navbar').css('position', 'absolute');
-    // $('.navbar').css('height', '8rem');
+    $('.topnav').show();
+    $('.navbar').css('position', 'absolute');
+    $('.navbar').css('height', '8rem');
     
-    // $('.navbar').css('width', '100%');
-    
-    $('.navbar-left').hide();
-    
+    $('.navbar').css('width', '100%');
+
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+        x.className = "topnav";
+        }
+    }
 }
 
 
