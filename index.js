@@ -2,7 +2,7 @@
 $('.navbar-left').show();
 
 // Mobile View
-if ($(window).width() < 900) {
+if ($(window).width() < 5 || /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
 
     $('.main').css('margin-right', '0');
     $('.main').css('margin-left', '0');
