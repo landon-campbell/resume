@@ -23,6 +23,7 @@ if ($(window).width() < 5 || /Android|webOS|iPhone|iPod|BlackBerry/i.test(naviga
     $('.courses').css('padding-left', '0');
     $('.communityService').css('padding-left', '0');
     $('.awards').css('padding-left', '0');
+    $('.sectionTitle').css('margin', 'auto auto auto auto');
 
     // Navbar Mobile View
     // $('.navbar').css('position', 'absolute');

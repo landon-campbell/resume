@@ -186,7 +186,7 @@ body {
 	text-decoration-color: indianred;
 	width: fit-content;
 	height: fit-content;
-	margin-left: 0.2em;
+	margin: 0.2em;
 }
 .education {
 	padding-left: 0.75em;
@@ -227,7 +227,7 @@ body {
 .date {
 	display: block;
 	color: indianred;
-	width: fit-content;
+	/* width: fit-content; */
 	height: fit-content;
 	font-size: 1.28rem;
 }
