@@ -9,11 +9,18 @@ if ($(window).width() < 5 || /Android|webOS|iPhone|iPod|BlackBerry/i.test(naviga
     $('.main').css('margin-top', '5rem');
     $('.headerinfo').css('padding-left', '0');
     $('.summary').css('margin-left', '0');
+    $('.summary').css('font-size', '2rem');
     $('body').css('margin-left', '1rem');
     $('body').css('margin-right', '1rem');
     $('.headerinfo').css('text-align', 'center');
     $('.eduheaderinfo ul').css('padding-left', '0');
     $('.moreinfo').css('text-align', 'justify');
+    $('.sectionTitle').css('font-size', '4rem');
+    $('.eduheader').css('font-size', '2.9rem');
+    $('.eduheaderinfo').css('font-size', '2.35rem');
+    $('.date').css('font-size', '2.28rem');
+    $('.moreinfo').css('font-size', '2.15rem');
+
 
     $('.education').css('padding-left', '0');
     $('.experience').css('padding-left', '0');
