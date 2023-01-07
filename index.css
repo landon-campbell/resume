@@ -275,7 +275,13 @@ body {
 	display: block;
 	padding-top: 0.15em;
 }
-.email:hover {
+
+#tradelucentlink, #rslink {
+	text-decoration: none;
+	color: indianred;
+	padding-top: 0.15em;
+}
+.email:hover, #tradelucentlink:hover, #rslink:hover {
 	text-decoration: underline;
 	color: firebrick;
 }
@@ -441,10 +447,6 @@ li {
 	font-family: futura-pt;
 	width: fit-content;
 	height: fit-content;
-}
-a.rslink {
-	color: cornflowerblue;
-	text-decoration: underline;
 }
 
 .enclosure li {
