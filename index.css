@@ -139,25 +139,6 @@ body {
 	}
   }
 
-/* .navbar-mobile {
-	z-index: 1;
-	background-color: indianred;
-	top: 0;
-	height: 4rem;
-	position: fixed;
-	width: 100%;
-	left: 0;
-	font-family: futura-pt;
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-	padding: 15px;
-} */
-
-
 .navbar-desktop {
 	background-color: indianred;
 	top: 0;
@@ -173,7 +154,7 @@ body {
 	justify-content: center;
 	text-align: center;
 	align-items: center;
-	padding: 15px;
+	padding: 8% 15px 15px;
 }
 
 .dropbutton {
